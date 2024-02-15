@@ -1,0 +1,48 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "this is my first project in react",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivangiyadu/namaste-react.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Shivangi Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivangiyadu/namaste-react/issues"
+  },
+  "homepage": "https://github.com/shivangiyadu/namaste-react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
+    "babel-jest": "^29.7.0",
+    "buffer": "^6.0.3",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "parcel": "^2.11.0",
+    "postcss": "^8.4.33",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.23.3",
+    "@reduxjs/toolkit": "^2.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.21.3"
+  }
+}
